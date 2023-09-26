@@ -33,9 +33,9 @@ function setup() {
     x = (530);
     y = (700);
     button = createButton('Plot');
-  button.position(820, 530);
+  button.position(810, 530);
   lineButton = createButton('Calculate Slope');
-  lineButton.position(245, 620);
+  lineButton.position(245, 640);
 }
 
 
@@ -68,16 +68,17 @@ function draw() {
     strokeWeight (1);
 	ellipse(x, y, size*3, size*3);
 	
-	textSize(23);
+	textSize(22);
     fill(0,0,0);
-	text("Diameter: "+diameter+"px", 320, 500)
-	text("Circumference: "+circumference+"px", 510, 500);
-  textSize(15);
+	text("Diameter: "+diameter+"px", 320, 490)
+	text("Circumference: "+circumference+"px", 510, 490);
+  textSize(13);
   strokeWeight (0.5);
-  text ("Press left or right arrow keys to decrease or increase the diameter.", 330, 450)
+  text ("<Step 1> Press the left or right arrow keys to decrease or increase the diameter.", 310, 450)
   
-  text ("Press Enter to plot the relationship between", 400, 875);
-  text ("Diameter (x) and Circumference (y) on the left graph.", 370, 895);
+  text ("<Step 2> Press the 'Plot' button to plot the relationship between", 350, 870);
+  text ("the diameter (x) and circumference (y) of the circle on the left graph.", 340, 895);
+    text ("<Step 3> Press the 'Calculate Slope' button to draw a line that connects points.", -220, 1020);
   
   fill (0, 0, 255)
   text ("x-axis = Diameter", 180, 710);
