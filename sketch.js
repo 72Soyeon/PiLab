@@ -1,3 +1,8 @@
+/*
+“Circle Calculator” by 712308http://openprocessing.org/sketch/1154679License CreativeCommons Attribution ShareAlikehttps://creativecommons.org/licenses/by-sa/3.0
+“Graph Paper” by Robert S. Robbinshttp://openprocessing.org/sketch/892260License CreativeCommons Attribution ShareAlikehttps://creativecommons.org/licenses/by-sa/3.0
+*/
+
 var x, y;
 var size = 50;
 var area;
