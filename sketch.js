@@ -4,7 +4,7 @@
 */
 
 var x, y;
-var size = 50;
+var size = 25;
 var area;
 var diameter;
 var radius;
@@ -77,8 +77,8 @@ function draw() {
   text ("<Step 1> Press the left or right arrow keys to decrease or increase the diameter.", 310, 450)
   
   text ("<Step 2> Press the 'Plot' button to plot the relationship between", 350, 870);
-  text ("the diameter (x) and circumference (y) of the circle on the left graph.", 340, 895);
-    text ("<Step 3> Press the 'Calculate Slope' button to draw a line that connects points.", -220, 1020);
+  text ("the circle's diameter (x) and circumference (y) on the left graph.", 350, 895);
+  text ("<Step 3> Press the 'Calculate Slope' button to draw a line that connects points.", -220, 1020);
   
   fill (0, 0, 255)
   text ("x-axis = Diameter", 180, 710);
